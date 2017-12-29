@@ -40,16 +40,18 @@ class 样式: 页面 + 信息 如 index-senction ，details-section
 变量命名采用小驼峰命名 如 courseList
 ## css
 采用的是less,语法如下
-
+```
  .parent {
 
-   .children1 {...}
+  .children1 {...}
 
-   .children2 {...}
+  .children2 {...}
 
-   ...
+  ...
 
  }
+ ```
+ 
 ## js
 采用es6
 ## eslint
