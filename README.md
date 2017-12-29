@@ -34,28 +34,46 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 v8.0.0
 ## 命名规范
 class 样式: 页面 + 信息 如 index-senction ，details-section 
+
 只做js操作dom 的class： 具体的 className + hook  如 details-course-list-hook
+
 变量命名采用小驼峰命名 如 courseList
 ## css
 采用的是less,语法如下
+
  .parent {
+
    .children1 {...}
+
    .children2 {...}
+
    ...
+
  }
 ## js
 采用es6
 ## eslint
 可以用 tab 缩进
+
 可以用 tab 和 space 混合打空格 
+
 语句结束使用 ; 如 i++;
+
 函数名字和 (), 要用空格 隔开，如 data () {...}
+
 箭头函数，箭头符号两边 用空格隔开 如， (res) => {...}, 参数需要用 () 包住
+
 定义变量要用空格隔开 如 courseList: []
+
 空行最多不能超过3行 
+
 变量声明就要使用
+
 调用变量前必须声明
+
 禁止使用行尾空格
+
 圆括号內使用一致的空格
+
 
 
