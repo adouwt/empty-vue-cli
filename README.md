@@ -30,6 +30,8 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 # 代码开发规范
+# node 版本
+v8.0.0
 ## 命名规范
 class 样式: 页面 + 信息 如 index-senction ，details-section 
 只做js操作dom 的class： 具体的 className + hook  如 details-course-list-hook
